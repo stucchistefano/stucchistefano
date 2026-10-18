@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
-url: https://stucchistefano # the base hostname & protocol for your site
+url: https://YOUR-GITHUB-USERNAME.github.io # the base hostname & protocol for your site
 baseurl: # LEAVE BLANK if your repository is named YOUR-GITHUB-USERNAME.github.io; otherwise write /YOUR-REPOSITORY-NAME
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -423,7 +423,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # DISABLED: on Windows the system "convert" command is not ImageMagick and causes errors. Set to true only after installing ImageMagick
   widths:
     - 480
     - 800
