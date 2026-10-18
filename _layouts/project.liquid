@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.period %}<p class="post-meta">{{ page.period }}</p>{% endif %}
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+</div>
