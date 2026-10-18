@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Your current position (e.g. Ph.D. Student in [Your Field]) at [Your University / Company]."
+subtitle: "PhD Student in Mechanical Engineering at Politecnico di Milano."
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>[Your University / Company]</p>
-    <p>[City, Country]</p>
+    <p>Politecnico di Milano</p>
+    <p>Milan, Italy</p>
 
 selected_papers: false # no publications list on the about page
 social: true # includes social icons at the bottom of the page
